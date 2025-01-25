@@ -36,32 +36,32 @@ proxies:
     server: quiz.vidio.com
     port: 80
     type: vmess
-    uuid: ed190e84-41ab-49bf-9cf5-4131d5609214
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: idray.serverssh.us.kg
+    servername: lb.vhax.net
     network: ws
     ws-opts:
-      path: /serverssh.net/
+      path: /sshkit/tes30jan/67912e422eb44/
       headers:
-        Host: idray.serverssh.us.kg
+        Host: lb.vhax.net
     udp: true
   - name: AKUN2
     server: quiz.vidio.com
     port: 443
     type: vless
-    uuid: aceb75d0-824f-4b82-b185-885a073be4de
+    uuid: a7309cb55-946e-4ec0-aedb-1df12872b3c2
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idray.serverssh.us.kg
+    servername: sg4.v4vless.xyz
     network: ws
     ws-opts:
-      path: /serverssh
+      path: /vless-ws
       headers:
-        Host: idray.serverssh.us.kg
+        Host: sg4.v4vless.xyz
     udp: true
 
 proxy-groups:
