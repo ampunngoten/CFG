@@ -36,47 +36,47 @@ proxies:
     server: quiz.int.vidio.com
     port: 80
     type: vmess
-    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id2-ray.ipservers.xyz
+    servername: lb.vhax.net
     network: ws
     ws-opts:
-      path: /JAGOANSSH/
+      path: /sshkit/tes30jan/67912e422eb44/
       headers:
-        Host: id2-ray.ipservers.xyz
+        Host: lb.vhax.net
     udp: true
   - name: AKUN2
     server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
+    uuid: 841e36ad-8af5-49ed-a43c-cfbba5d014ba
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: sg3.v4vless.xyz
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless-ws
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: sg3.v4vless.xyz
     udp: true
   - name: AKUN3
     server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    uuid: bc012170-dad2-11ef-ac4c-1239d0255272
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: sg3.socifiles.com
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vlws
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: sg3.socifiles.com
     udp: true
 
 proxy-groups:
