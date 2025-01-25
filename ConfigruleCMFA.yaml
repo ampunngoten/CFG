@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.int.vidio.com
+    server: quiz.vidio.com
     port: 80
     type: vmess
     uuid: ed190e84-41ab-49bf-9cf5-4131d5609214
@@ -49,7 +49,7 @@ proxies:
         Host: idray.serverssh.us.kg
     udp: true
   - name: AKUN2
-    server: quiz.int.vidio.com
+    server: quiz.vidio.com
     port: 443
     type: vless
     uuid: aceb75d0-824f-4b82-b185-885a073be4de
@@ -63,21 +63,6 @@ proxies:
       headers:
         Host: idray.serverssh.us.kg
     udp: true
-  - name: AKUN3
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: 27e4c3de-dacb-11ef-9f74-00163c49b379
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: indo3.vpnjantit.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: indo3.vpnjantit.com
-    udp: true
 
 proxy-groups:
   - name: ID-X
@@ -87,7 +72,6 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
-      - AKUN3
 
   - name: MIX-X
     type: fallback
@@ -96,7 +80,6 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
-      - AKUN3
       
   - name: IKLAN
     type: select
