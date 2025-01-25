@@ -1,4 +1,4 @@
-port: 7890
+  port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
@@ -52,18 +52,32 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: vless
-    uuid: a7309cb55-946e-4ec0-aedb-1df12872b3c2
+    uuid: bc012170-dad2-11ef-ac4c-1239d0255272
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg4.v4vless.xyz
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
+  - name: AKUN3
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: 841e36ad-8af5-49ed-a43c-cfbba5d014ba
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.v4vless.xyz
     network: ws
     ws-opts:
       path: /vless-ws
       headers:
-        Host: sg4.v4vless.xyz
+        Host: sg3.v4vless.xyz
     udp: true
-
 proxy-groups:
   - name: ID-X
     type: fallback
@@ -72,6 +86,7 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
+      - AKUN3
 
   - name: MIX-X
     type: fallback
