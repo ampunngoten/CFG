@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.vidio.com
+    server: quiz.staging.vidio.com
     port: 80
     type: vmess
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -64,7 +64,7 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
   - name: AKUN3
-    server: quiz.vidio.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
     uuid: 841e36ad-8af5-49ed-a43c-cfbba5d014ba
@@ -95,6 +95,7 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
+      - AKUN3
       
   - name: IKLAN
     type: select
