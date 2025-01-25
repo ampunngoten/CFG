@@ -36,47 +36,47 @@ proxies:
     server: quiz.int.vidio.com
     port: 80
     type: vmess
-    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
+    uuid: ed190e84-41ab-49bf-9cf5-4131d5609214
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id2-ray.ipservers.xyz
+    servername: idray.serverssh.us.kg
     network: ws
     ws-opts:
-      path: /JAGOANSSH/
+      path: /serverssh.net/
       headers:
-        Host: id2-ray.ipservers.xyz
+        Host: idray.serverssh.us.kg
     udp: true
   - name: AKUN2
     server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
+    uuid: aceb75d0-824f-4b82-b185-885a073be4de
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: idray.serverssh.us.kg
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /serverssh
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: idray.serverssh.us.kg
     udp: true
   - name: AKUN3
     server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    uuid: 27e4c3de-dacb-11ef-9f74-00163c49b379
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: indo3.vpnjantit.com
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vpnjantit
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: indo3.vpnjantit.com
     udp: true
 
 proxy-groups:
