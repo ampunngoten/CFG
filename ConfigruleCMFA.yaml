@@ -39,7 +39,7 @@ proxies:
     password: 953f07a0-db46-11ef-b514-1239d0255272
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: sg3.socifiles.com
     network: ws
