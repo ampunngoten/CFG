@@ -33,12 +33,11 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.staging.vidio.com
+    server: quiz.vidio.com
     port: 80
     type: trojan
-    password: 953f07a0-db46-11ef-b514-1239d0255272
+    password: 388e4840-dbe3-11ef-9a88-1239d0255272
     alterId: 0
-    cipher: auto
     tls: true
     skip-cert-verify: true
     servername: sg3.socifiles.com
@@ -49,34 +48,34 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
   - name: AKUN2
-    server: quiz.int.vidio.com
+    server: quiz.vidio.com
     port: 443
-    type: vless
-    uuid: 841e36ad-8af5-49ed-a43c-cfbba5d014ba
+    type: vmess
+    uuid: 7798d3e0-dbe3-11ef-8b36-1239d0255272
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3.v4vless.xyz
+    servername: sg3.socifiles.com
     network: ws
     ws-opts:
-      path: /vless-ws
+      path: /vmws
       headers:
-        Host: sg3.v4vless.xyz
+        Host: sg3.socifiles.com
     udp: true
   - name: AKUN3
     server: quiz.vidio.com
     port: 443
-    type: vless
-    uuid: 7309cb55-946e-4ec0-aedb-1df12872b3c2
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg4.v4vless.xyz
+    servername: lb.vhax.net
     network: ws
     ws-opts:
-      path: /vless-ws
+      path: /sshkit/3feb3/67962f1bac4cc/
       headers:
-        Host: sg4.v4vless.xyz
+        Host: lb.vhax.net
     udp: true
 
 proxy-groups:
